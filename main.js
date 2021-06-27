@@ -4,7 +4,11 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-items");
-const btnForm = document.querySelector(".btn-form");
+
+
+window.addEventListener("load", () => {
+    document.querySelector(".preloader").style.display = "none"
+})
 
 //animacion del menu
 let showMenu = true;
@@ -33,7 +37,3 @@ menuBtn.addEventListener("click", function() {
     }
     
 });
-
-btnForm.addEventListener("click", () => {
-    window.open("mailto:pacheco1512@gmail.com");
-})
