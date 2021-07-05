@@ -273,7 +273,7 @@ main#home h1 {
   -ms-grid-column: 1;
   grid-area: bioimage;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 10%;
   border: #DA0037 3px solid;
 }
 
