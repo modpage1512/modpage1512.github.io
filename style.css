@@ -292,7 +292,8 @@ p {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
-      grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+      grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
 }
@@ -302,7 +303,7 @@ p {
   -ms-grid-column: 1;
   grid-area: bioimage;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 10%;
   border: #185ADB 3px solid;
   width: 50%;
 }
@@ -500,7 +501,12 @@ form textarea {
     height: 150px;
   }
   .about-info {
-        grid-template-areas: "bioimage" "bio" "bio" "job1" "job2" "job3";
+        grid-template-areas: "bioimage"
+ "bio"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
