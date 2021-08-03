@@ -48,7 +48,7 @@ window.addEventListener("load", (event) => {
 })
 
 const idiomSet = (language, url) => {
-    if(url === "https://modpage1512.github.io/"){
+    if(url === "https://modpage1512.github.io/" || url === "https://modpage1512.github.io/index.html"){
         
         fetch("./idiomas/" + language + ".json").then(response => {
             return response.json().then(data => {
