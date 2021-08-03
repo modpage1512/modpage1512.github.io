@@ -37,13 +37,11 @@ window.addEventListener("load", (event) => {
     
     document.querySelectorAll(".idiom-container button").forEach(button => {
         button.addEventListener("click", event => {
+            
             let language = event.target.innerText;
             
             language === "English" ? language = "ingles": language = "espanol";
-            
-            clearInterval(estado);
-
-            idiomTitle.innerText = "";
+           
 
             idiomSet(language, url);
         })
