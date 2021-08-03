@@ -14,22 +14,20 @@ window.addEventListener("load", (event) => {
     let idiomaCambiado = localStorage.getItem("idioma");
     let url = event.target.URL;
 
-    let estado = setInterval(() => {
+    /**let estado = setInterval(() => {
             if(state === true){
                 idiomTitle.innerText = "choose your language";
                 state = false;
-                console.log(state);
             } else {
                 idiomTitle.innerText = "Escoge tu idioma";
                 state = true;
-                console.log(state);
             }
-        }, 1000);
+        }, 1000);**/
     
     if(idiomaCambiado === "espanol" || idiomaCambiado === "ingles"){
         
-        clearInterval(estado);
-        idiomTitle.innerText = "";
+        /**clearInterval(estado);
+        idiomTitle.innerText = "";**/
         
         idiomSet(idiomaCambiado, url);
     } 
