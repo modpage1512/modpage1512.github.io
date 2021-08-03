@@ -63,11 +63,11 @@ const idiomSet = (language, url) => {
     }  else {
         idiomChangeMenu(language);
 
-        if(url === "http://localhost:5500/about.html"){
+        if(url === "https://modpage1512.github.io/about.html"){
 
             idiomChangeAbout(language);
 
-        } else if(url === "http://localhost:5500/contact.html") {
+        } else if(url === "https://modpage1512.github.io/contact.html") {
 
             idiomChangeContact(language);
 
