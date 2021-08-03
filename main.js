@@ -27,11 +27,6 @@ window.addEventListener("load", (event) => {
     if(idiomaCambiado === "espanol" || idiomaCambiado === "ingles"){
         
         clearInterval(estado);
-        if(idiomaCambiado === "espanol"){
-            idiomTitle.innerText = "Buena elección";
-        } else {
-            idiomTitle.innerText = "Good choice";
-        }
         
         idiomSet(idiomaCambiado, url);
     } 
