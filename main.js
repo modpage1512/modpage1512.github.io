@@ -14,11 +14,7 @@ window.addEventListener("load", (event) => {
     let idiomaCambiado = localStorage.getItem("idioma");
     let url = event.target.URL;
 
-
-    if(idiomaCambiado === "espanol" || idiomaCambiado === "ingles"){
-        idiomSet(idiomaCambiado, url);
-    } else {
-        let estado = setInterval(() => {
+    let estado = setInterval(() => {
             if(state === true){
                 idiomTitle.innerText = "choose your language";
                 state = false;
@@ -29,8 +25,16 @@ window.addEventListener("load", (event) => {
                 console.log(state);
             }
         }, 1000);
-    }
-
+    
+    if(idiomaCambiado === "espanol" || idiomaCambiado === "ingles"){
+        
+        clearInterval(estado);
+        idiomTitle.innerText = "";
+        
+        idiomSet(idiomaCambiado, url);
+    } 
+    
+    
     document.querySelectorAll(".idiom-container button").forEach(button => {
         button.addEventListener("click", event => {
             let language = event.target.innerText;
