@@ -40,12 +40,8 @@ window.addEventListener("load", (event) => {
             language === "English" ? language = "ingles": language = "espanol";
            
             clearInterval(estado);
-            if(idiomaCambiado === "espanol"){
-                idiomTitle.innerText = "Buena elección";
-            } else {
-                idiomTitle.innerText = "Good choice";
-            }
-                idiomSet(language, url);
+           
+            idiomSet(language, url);
         })
     })
 
