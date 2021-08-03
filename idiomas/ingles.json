@@ -18,7 +18,7 @@
     "Secciones": [
         {
             "id": "1",
-            "url": "https://60d8b2cd9f796fa1f08b255d--flamboyant-newton-b3e658.netlify.app/",
+            "url": "https://fervent-bohr-ad88dc.netlify.app/",
             "img": "imagen-proyectos/cambiador de color de fondo-min.jpg",
             "descripcion": "Static web page where you can change the background color by pressing a button."
         },
@@ -30,75 +30,51 @@
         },
         {
             "id": "3",
-            "url": "https://60d8b2f232286811c0d17d53--flamboyant-newton-b3e658.netlify.app/",
+            "url": "https://priceless-northcutt-c565d1.netlify.app/",
             "img": "imagen-proyectos/generador de texto-min.png",
             "descripcion": "Static web page that generates text from 0 to 9 paragraphs."
         },
         {
             "id": "4",
-            "url": "https://60d8b3299f796fa5af8b2484--flamboyant-newton-b3e658.netlify.app/",
-            "img": "imagen-proyectos/navbar boton-min.png",
-            "descripcion": "Static web page of a sidebar menu."
-        },
-        {
-            "id": "5",
-            "url": "https://60d8b3071fc98c4211359374--flamboyant-newton-b3e658.netlify.app/",
-            "img": "imagen-proyectos/navbar-min.png",
-            "descripcion": "Static web page from a top menu."
-        },
-        {
-            "id": "6",
-            "url": "https://60d8b2ff7144852058da147c--flamboyant-newton-b3e658.netlify.app/",
-            "img": "imagen-proyectos/Notificacion-min.png",
-            "descripcion": "Static web page that appears an alert when pressing a button."
-        },
-        {
-            "id": "7",
-            "url": "https://60d8b2e4110f54367da9c7c6--flamboyant-newton-b3e658.netlify.app/",
+            "url": "https://quirky-wilson-e94f9a.netlify.app/",
             "img": "imagen-proyectos/Pagina de promocion-min.png",
             "descripcion": "Static web page of an article promotion."
         },
         {
-            "id": "8",
-            "url": "https://60d8b3222a97bcc964f573ae--flamboyant-newton-b3e658.netlify.app/",
+            "id": "5",
+            "url": "https://admiring-hermann-74f583.netlify.app/",
             "img": "imagen-proyectos/Pagina estatica-min.png",
             "descripcion": "Example of a simple static web page design."
         },
         {
-            "id": "9",
-            "url": "https://60d8b30fd8eda9bd1db4d568--flamboyant-newton-b3e658.netlify.app/",
+            "id": "6",
+            "url": "https://elegant-pike-45701f.netlify.app/",
             "img": "imagen-proyectos/Preguntas-min.png",
             "descripcion": "FAQ section."
         },
         {
-            "id": "10",
-            "url": "https://60d8b319abf1b0ba6aa0d961--flamboyant-newton-b3e658.netlify.app/",
+            "id": "7",
+            "url": "https://objective-saha-a9f655.netlify.app/",
             "img": "imagen-proyectos/reviews-min.png",
             "descripcion": "Reviews section."
         },
         {
-            "id": "11",
-            "url": "https://60d8b33b1fc98c3ffc359457--flamboyant-newton-b3e658.netlify.app/",
+            "id": "8",
+            "url": "https://determined-wing-d721c5.netlify.app/",
             "img": "imagen-proyectos/Seccion de informacion-min.png",
             "descripcion": "About section."
         },
         {
-            "id": "12",
-            "url": "https://60d8b332ec58edb09827890c--flamboyant-newton-b3e658.netlify.app/",
+            "id": "9",
+            "url": "https://sleepy-lewin-a40e62.netlify.app/",
             "img": "imagen-proyectos/slider-min.png",
             "descripcion": "Slider example."
         },
         {
-            "id": "13",
-            "url": "https://60d8b345c6b1ce9f138a35a5--flamboyant-newton-b3e658.netlify.app/",
+            "id": "10",
+            "url": "https://pensive-franklin-909ea2.netlify.app/",
             "img": "imagen-proyectos/todo list-min.png",
             "descripcion": "Static to-do list web page, using local storage for changes to be saved on your machine."
-        },
-        {
-            "id": "14",
-            "url": "https://60d8b35132286812dbd17f27--flamboyant-newton-b3e658.netlify.app/",
-            "img": "imagen-proyectos/video-min.png",
-            "descripcion": "Banner with a video and a custom button."
         }
     ]
 }
