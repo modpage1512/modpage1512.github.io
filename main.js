@@ -14,7 +14,7 @@ window.addEventListener("load", (event) => {
     let idiomaCambiado = localStorage.getItem("idioma");
     let url = event.target.URL;
 
-    /**let estado = setInterval(() => {
+    let estado = setInterval(() => {
             if(state === true){
                 idiomTitle.innerText = "choose your language";
                 state = false;
@@ -22,12 +22,16 @@ window.addEventListener("load", (event) => {
                 idiomTitle.innerText = "Escoge tu idioma";
                 state = true;
             }
-        }, 1000);**/
+        }, 1000);
     
     if(idiomaCambiado === "espanol" || idiomaCambiado === "ingles"){
         
-        /**clearInterval(estado);
-        idiomTitle.innerText = "";**/
+        clearInterval(estado);
+        if(idiomaCambiado === "espanol"){
+            idiomTitle.innerText = "Buena elección";
+        } else {
+            idiomTitle.innerText = "Good choice";
+        }
         
         idiomSet(idiomaCambiado, url);
     } 
@@ -40,8 +44,13 @@ window.addEventListener("load", (event) => {
             
             language === "English" ? language = "ingles": language = "espanol";
            
-
-            idiomSet(language, url);
+            clearInterval(estado);
+            if(idiomaCambiado === "espanol"){
+                idiomTitle.innerText = "Buena elección";
+            } else {
+                idiomTitle.innerText = "Good choice";
+            }
+                idiomSet(language, url);
         })
     })
 
