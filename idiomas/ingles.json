@@ -1,0 +1,104 @@
+{
+    "proyectos": [
+        {
+            "id": "1",
+            "tecnologias": "HTML5, JAVASCRIPT, CSS3 Y FONT AWESOME",
+            "url": "https://youthful-ritchie-5e1852.netlify.app/",
+            "img": "imagen-proyectos/proyecto-tienda-cafe.png",
+            "descripcion": "Website designed for coffee businesses."
+        },
+        {
+            "id": "2",
+            "tecnologias": "HTML5, JAVASCRIPT, CSS3 Y FONT AWESOME",
+            "url": "https://fervent-minsky-d17a1b.netlify.app/",
+            "img": "imagen-proyectos/imagen-tienda-online.png",
+            "descripcion": "Furniture sales online store."
+        }
+    ],
+    "Secciones": [
+        {
+            "id": "1",
+            "url": "https://60d8b2cd9f796fa1f08b255d--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/cambiador de color de fondo-min.jpg",
+            "descripcion": "Static web page where you can change the background color by pressing a button."
+        },
+        {
+            "id": "2",
+            "url": "https://angry-leavitt-af22d6.netlify.app",
+            "img": "imagen-proyectos/Menu-min.png",
+            "descripcion": "Static food website."
+        },
+        {
+            "id": "3",
+            "url": "https://60d8b2f232286811c0d17d53--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/generador de texto-min.png",
+            "descripcion": "Static web page that generates text from 0 to 9 paragraphs."
+        },
+        {
+            "id": "4",
+            "url": "https://60d8b3299f796fa5af8b2484--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/navbar boton-min.png",
+            "descripcion": "Static web page of a sidebar menu."
+        },
+        {
+            "id": "5",
+            "url": "https://60d8b3071fc98c4211359374--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/navbar-min.png",
+            "descripcion": "Static web page from a top menu."
+        },
+        {
+            "id": "6",
+            "url": "https://60d8b2ff7144852058da147c--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/Notificacion-min.png",
+            "descripcion": "Static web page that appears an alert when pressing a button."
+        },
+        {
+            "id": "7",
+            "url": "https://60d8b2e4110f54367da9c7c6--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/Pagina de promocion-min.png",
+            "descripcion": "Static web page of an article promotion."
+        },
+        {
+            "id": "8",
+            "url": "https://60d8b3222a97bcc964f573ae--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/Pagina estatica-min.png",
+            "descripcion": "Example of a simple static web page design."
+        },
+        {
+            "id": "9",
+            "url": "https://60d8b30fd8eda9bd1db4d568--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/Preguntas-min.png",
+            "descripcion": "FAQ section."
+        },
+        {
+            "id": "10",
+            "url": "https://60d8b319abf1b0ba6aa0d961--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/reviews-min.png",
+            "descripcion": "Reviews section."
+        },
+        {
+            "id": "11",
+            "url": "https://60d8b33b1fc98c3ffc359457--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/Seccion de informacion-min.png",
+            "descripcion": "About section."
+        },
+        {
+            "id": "12",
+            "url": "https://60d8b332ec58edb09827890c--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/slider-min.png",
+            "descripcion": "Slider example."
+        },
+        {
+            "id": "13",
+            "url": "https://60d8b345c6b1ce9f138a35a5--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/todo list-min.png",
+            "descripcion": "Static to-do list web page, using local storage for changes to be saved on your machine."
+        },
+        {
+            "id": "14",
+            "url": "https://60d8b35132286812dbd17f27--flamboyant-newton-b3e658.netlify.app/",
+            "img": "imagen-proyectos/video-min.png",
+            "descripcion": "Banner with a video and a custom button."
+        }
+    ]
+}

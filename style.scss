@@ -1,0 +1,294 @@
+//Otros archivos scss
+@import "archivos scss/config";
+@import "archivos scss/menu";
+
+
+//Estilo general que usa border box para darle un estido tipo caja
+* {
+    box-sizing: border-box;
+}
+
+//Estilos del body
+body {
+    //Valor mixin que dentro de config
+    @include background;
+    margin: 0;
+    background-color: $primary-color;
+    color: set-text-color($primary-color);
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.idiomTitle {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.idiom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ingles {
+    margin-left: 50px;
+}
+
+//Estilos de los titulos
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: 400;
+
+    //Agrega tamaño se usa el prefijo & porque se usa scss 
+    &.lg-heading {
+        font-size: 6rem;
+        text-shadow: 4px 4px black;
+        text-align: center;
+    }
+
+    //estilos de del headers
+    &.sm-heading {
+        margin-bottom: 2rem;
+        padding: 0.2rem 1rem;
+        background: rgba(lighten($color: $primary-color, $amount: 2), 0.5); //PROBAR QUITAR LA FUNCION RGBA
+        text-align: center;
+    }
+}
+
+blockquote {
+    font-size: 1.5rem;
+}
+
+a {
+    color: $secondary-color;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+main {
+    //height: 100%;
+    padding: 4rem;
+    min-height: calc(100vh - 60px);
+
+    .icons {
+        margin-top: 1rem;
+
+        a {
+            padding: 0.4rem;
+
+            &:hover {
+                color: $secondary-color;
+                @include easeOut();
+            }
+        }
+    }
+
+    &#home {
+        overflow: hidden;
+
+        h1 {
+            margin-top: 20vh;
+        }
+    }
+}
+
+
+p {
+    line-height: 1.5;
+    letter-spacing: 0.15rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.texto-unico {
+    text-align: center;
+    font-size: 2rem;
+}
+
+//about.html
+
+.about-info {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+        "bioimage bio bio"
+        "job1 job2 job3";
+    grid-template-columns: repeat(3, 1fr);
+
+    .bio-image {
+        grid-area: bioimage;
+        margin: auto;
+        border-radius: 10%;
+        border: $secondary-color 3px solid;
+        width: 50%;
+    }
+
+    .bio {
+        grid-area: bio;
+        font-size: 1.5rem;
+    }
+
+    .job-1 {
+        grid-area: job1;
+    }
+
+    .job-2 {
+        grid-area: job2;
+    }
+
+    .job-3 {
+        grid-area: job3;
+    }
+
+    .job {
+        background: lighten($primary-color, 5);
+        padding: 0.5rem;
+        border-bottom: $secondary-color 5px solid;
+    }
+}
+
+//work.html
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.7rem;
+
+    img {
+        width: 100%;
+        border: solid white 5px;
+    }
+
+    .imagen {
+        &:hover {
+            opacity: 0.5;
+            border-color: $secondary-color;
+            @include easeOut;
+        }
+    }
+}
+
+.button-idiom {
+    font-size: 1.5rem;
+    border: 3px #fff solid;
+    padding: 1rem 1rem;
+    margin-bottom: 3rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    @include easeOut;
+}
+
+.button-idiom:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+}
+
+//Contact page
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        font-size: 2rem;
+        border: 3px #fff solid;
+        padding: 1.5rem 2.5rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover {
+            padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+
+            span {
+                color: set-text-color($secondary-color);
+            }
+        }
+    }
+}
+
+//buttom Style
+.btn {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+
+    &:hover {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+    }
+}
+
+.btn-dark {
+    @extend .btn;
+    background-color: darken($primary-color, 50);
+    color: #fff;
+}
+
+.btn-light {
+    @extend .btn;
+    background-color: darken($primary-color, 50);
+    color: #fff;
+}
+
+i {
+    padding-right: 0.5rem;
+}
+
+
+//footer para todas las paginas
+#main-footer {
+    text-align: center;
+    padding: 1rem;
+    background: darken($primary-color, 10);
+    color: set-text-color($primary-color);
+    height: 60px;
+}
+
+form {
+    width: 50vw;
+
+    input {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+
+@import "archivos scss/mobile";
