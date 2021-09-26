@@ -247,7 +247,7 @@ const idiomChangeAbout = (language) => {
         document.querySelector(".personal-title").innerHTML = 'Personal <span class="text-secondary">Information</span>';
         document.querySelector(".personal").innerHTML = '<p>My name is Carlos Castillo, I am from Venezuela, La Guaria state.<br><br>' +
         'I am 24 years old and I am a web programmer, currently I focus on the front-end area of ​​web development.<br><br> I am a competitive person, resilient and passionate about technology, I always seek to improve and constantly learn.</p>' +
-        '<h4><span class="text-secondary"><a href="archivos/Cv-qr.pdf" download="https://github.com/modpage1512/modpage1512.github.io/blob/main/Archivos/Cv-qr-ingles.pdf">Download curriculum</a></span></h4>';
+        '<h4><span class="text-secondary"><a href="https://github.com/modpage1512/modpage1512.github.io/raw/main/Archivos/Cv-qr-ingles.pdf" download="curriculum.pdf">Download curriculum</a></span></h4>';
         document.querySelector(".job-1 h2").innerHTML = "Aptitudes";
         document.querySelector(".job-2 h2").innerHTML = "Tools";
         document.querySelector(".job-3 h2").innerHTML = "Social networks";
